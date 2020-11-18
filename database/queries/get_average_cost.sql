@@ -1,0 +1,1 @@
+SELECT ROUND(AVG("total_price")::numeric, 0) AS "avg_cost" FROM ticket_user_info
